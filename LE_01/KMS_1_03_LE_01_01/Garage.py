@@ -1,3 +1,12 @@
+#The program is a simple vehicle management system consisting of a `Garage` 
+#class and several subclasses representing different types of vehicles. 
+#It tracks each vehicle's details and the total number of vehicles. 
+#It allows creating individual vehicle objects with specific attributes 
+#and provides a method to print out these details. 
+#The subclasses include `PKW` for cars, `LKW` for trucks, `Motorrad` for motorcycles,
+#and `Fahrrad` for bicycles. The program also attempts to track the count of each type of vehicle and the total count of all vehicles.
+
+
 class Garage:
     Type_count = 0
     Total_count = 0
