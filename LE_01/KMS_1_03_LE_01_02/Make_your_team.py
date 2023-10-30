@@ -1,3 +1,15 @@
+#The program is a sports team management system. It allows creating `Player` 
+#objects with names and `Team` objects with a name and a list of players. 
+#Features include displaying all teams and their players, removing a specific 
+#player from a team, and removing an entire team from the system. 
+#The user interacts with the system through a console-based menu that allows 
+#them to perform these actions. Input is required from the user to specify 
+#the number of teams, the names of the teams, and the names of the players on each team. 
+#The loop continues to prompt the user for actions until they choose to exit the program.
+
+
+
+
 class Player:
     def __init__(self, name):
         self.name = name
